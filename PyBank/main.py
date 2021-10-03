@@ -11,8 +11,8 @@ monthchange = []
 greatestincrease = 0
 greatestdecrease = 1000
 
-with open(csvpath) as profit_lossData:
-   reader = csv.DictReader(profit_lossData)
+with open(csvpath) as profitlossdata:
+   reader = csv.DictReader(profitlossdata)
    index=0
    for row in reader:
        if(index==0):
